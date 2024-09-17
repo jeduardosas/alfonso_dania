@@ -1,0 +1,59 @@
+.header img{
+  max-width: 100%;
+  
+}
+@media (min-width: 768px) {
+    .header{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .header img{
+      max-width: 95%;
+      height: 100vh;
+      
+    }
+}
+
+.contador{
+  margin-top:50px;
+  position: relative;
+  z-index: 1;
+  
+}
+.contador_frase{
+  margin-top:30px ;
+  border-top: solid var(--black) thin;
+}
+.contador_frase p{
+  letter-spacing: 2px;
+  font-size: 22px;
+}
+.contador_imagen img{
+  width: 100%;
+}
+
+.datos{
+  margin-top: -9px;
+  height: 100vh;
+  background-color: var(--color_principal);
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+.datos_monograma{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.datos_monograma p{
+  font-family: var(--cursiva);
+  font-size: 70px;
+  padding: 0 25px 0 12px;
+}
+.datos_monograma-a{
+  border-right: solid #000 thin;
+}
